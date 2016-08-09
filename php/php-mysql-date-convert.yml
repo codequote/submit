@@ -1,0 +1,44 @@
+id: php-mysql-date-convert
+title: 'PHP MySQL Date Convert'
+description: 'Convert german date field into "MySQL Date"'
+labels:
+    - php
+    - mysql
+    - date
+    - time
+    - convert
+created_at: '2016-06-16T21:18:02Z'
+updated_at: '2016-08-09T21:35:36Z'
+issue:
+    title: 'PHP MySQL Date Convert'
+    url: 'https://github.com/codequote/submit/issues/1'
+    number: 1
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: php
+code: |
+    
+    /**
+     * Converts Date Field from dd.mm.yyyy to yyyy-mm-dd or yyyy-mm-dd hh:ii:ss
+     *
+     * @param  string  $date
+     * @param  boolean $with_time
+     * @return string  mysql-fitting date
+     */
+    function generateMySQLDate($date, $with_time) {
+    
+      if($with_time) :
+    
+        $buffer = explode(' ', $date);
+        $date   = explode('.', $buffer[0]);
+        $time   = explode(':', $buffer[1]);
+        return $buffer[2].'-'.$buffer[1].'-'.$buffer[0].' '.$time[0].':'.$time[1].':'.$time[2];
+      else :
+    
+        $buffer = explode('.', $date);
+        return $buffer[2].'-'.$buffer[1].'-'.$buffer[0];
+      endif;
+    }
+    
