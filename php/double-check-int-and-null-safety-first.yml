@@ -1,0 +1,26 @@
+id: double-check-int-and-null-safety-first
+title: 'Double check int and null, safety first!'
+description: 'Double check ftw! Check if it''s a integer AND if it''s not null. Yip!'
+labels:
+    - if
+    - 'null'
+    - int
+created_at: '2016-08-23T21:52:35Z'
+updated_at: '2016-08-23T21:52:56Z'
+issue:
+    title: 'Double check int and null, safety first!'
+    url: 'https://github.com/codequote/submit/issues/3'
+    number: 3
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: php
+code: |
+    
+    if(is_int(intval($category)) && null !== $category) {
+        $topicFacade=newPage_Helper_Facade();
+        $topic=$topicFacade->getTopicById($category);
+        $topicUrl=$topic->getUrl();
+    }
+    
