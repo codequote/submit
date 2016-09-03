@@ -1,0 +1,31 @@
+id: optimization-counter
+title: 'Optimization Counter'
+description: 'Seen at http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered'
+labels:
+    - maintain
+    - optimize
+    - optimization
+    - counter
+    - mistake
+created_at: '2016-09-03T20:48:35Z'
+updated_at: '2016-09-03T20:48:47Z'
+issue:
+    title: 'Optimization Counter'
+    url: 'https://github.com/codequote/submit/issues/9'
+    number: 9
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: comment
+code: |
+    
+    // Dear maintainer:
+    // 
+    // Once you are done trying to 'optimize' this routine,
+    // and have realized what a terrible mistake that was,
+    // please increment the following counter as a warning
+    // to the next guy:
+    // 
+    // total_hours_wasted_here = 42
+    
