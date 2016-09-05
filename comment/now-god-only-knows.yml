@@ -1,0 +1,23 @@
+id: now-god-only-knows
+title: 'Now, God only knows'
+description: 'When I wrote this, only God and I understood what I was doing. Now, God only knows'
+labels:
+    - understood
+    - god
+    - only
+created_at: '2016-09-05T12:53:39Z'
+updated_at: '2016-09-05T12:53:44Z'
+issue:
+    title: 'Now, God only knows'
+    url: 'https://github.com/codequote/submit/issues/11'
+    number: 11
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: comment
+code: |
+    
+    // When I wrote this, only God and I understood what I was doing
+    // Now, God only knows
+    
