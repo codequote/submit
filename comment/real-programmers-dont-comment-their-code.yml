@@ -17,8 +17,7 @@ author:
     username: florianpreusner
     avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
     profile_url: 'https://github.com/florianpreusner'
-language: none
+language: comment
 code: |
-    
+
     // Real programmers don’t comment their code – it was hard to write, it should be hard to understand.
-    
