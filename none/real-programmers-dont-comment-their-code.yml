@@ -1,0 +1,24 @@
+id: real-programmers-dont-comment-their-code
+title: 'Real programmers don’t comment their code'
+description: 'Real programmers don’t comment their code'
+labels:
+    - programmers
+    - developers
+    - comment
+    - hard
+    - understand
+created_at: '2016-09-22T19:52:21Z'
+updated_at: '2016-09-22T19:52:30Z'
+issue:
+    title: 'Real programmers don’t comment their code'
+    url: 'https://github.com/codequote/submit/issues/13'
+    number: 13
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: none
+code: |
+    
+    // Real programmers don’t comment their code – it was hard to write, it should be hard to understand.
+    
