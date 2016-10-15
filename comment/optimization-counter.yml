@@ -1,6 +1,6 @@
 id: optimization-counter
 title: 'Optimization Counter'
-description: 'Seen at http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered'
+description: 'Seen at [http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered](http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered)'
 labels:
     - maintain
     - optimize
