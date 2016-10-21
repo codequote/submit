@@ -1,0 +1,33 @@
+id: controller-method-that-does-a-lot-eh-not
+title: 'Controller method that does a lot - eh not.'
+description: 'Function was found in an abstract controller class.'
+labels:
+    - controller
+    - response
+    - abstract
+    - senseless
+created_at: '2016-10-21T12:29:33Z'
+updated_at: '2016-10-21T12:36:36Z'
+issue:
+    title: 'Controller method that does a lot - eh not.'
+    url: 'https://github.com/codequote/submit/issues/23'
+    number: 23
+author:
+    username: tobi812
+    avatar: 'https://avatars.githubusercontent.com/u/4661988?v=3'
+    profile_url: 'https://github.com/tobi812'
+language: php
+code: |
+    
+    
+    /**
+     * @param array $data
+     *
+     * @return array
+     */
+    protected function viewResponse(array $data = [])
+    {
+        return $data;
+    }
+    
+    
