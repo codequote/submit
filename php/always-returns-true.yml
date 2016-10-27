@@ -1,0 +1,28 @@
+id: always-returns-true
+title: 'Always returns true'
+description: 'Always returns true'
+labels:
+    - boolean
+    - 'true'
+    - 'false'
+    - always
+created_at: '2016-10-27T19:58:28Z'
+updated_at: '2016-10-27T19:58:43Z'
+issue:
+    title: 'Always returns true'
+    url: 'https://github.com/codequote/submit/issues/25'
+    number: 25
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: php
+code: |
+    
+    /**
+     * Always returns true.
+     */
+    public boolean isAvailable() {
+        return false;
+    }
+    
