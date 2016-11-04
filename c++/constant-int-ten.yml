@@ -1,0 +1,25 @@
+id: constant-int-ten
+title: 'Constant Int TEN'
+description: 'It''s always good to define some constants. To make sure everybody uses the same value!'
+labels:
+    - constant
+    - int
+    - integer
+    - value
+    - ten
+    - '10'
+created_at: '2016-11-03T15:59:43Z'
+updated_at: '2016-11-03T16:00:30Z'
+issue:
+    title: 'Constant Int TEN'
+    url: 'https://github.com/codequote/submit/issues/27'
+    number: 27
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: c++
+code: |
+    
+    const int TEN=10; // As if the value of 10 will fluctuate... 
+    
