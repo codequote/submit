@@ -1,0 +1,27 @@
+id: understand-recursion
+title: 'understand recursion'
+description: 'To know what recursion is, you have to know what recursion is'
+labels:
+    - recursion
+    - 'infinite loop'
+created_at: '2016-11-10T20:32:18Z'
+updated_at: '2016-11-10T20:32:23Z'
+issue:
+    title: 'understand recursion'
+    url: 'https://github.com/codequote/submit/issues/29'
+    number: 29
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: comment
+code: |
+    
+    # To understand recursion, see the bottom of this file 
+    
+    ...
+    ...
+    ...
+    
+    # To understand recursion, see the top of this file
+    
