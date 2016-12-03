@@ -1,0 +1,31 @@
+id: 12-is-my-lucky-number
+title: '12 is my lucky number'
+description: 'This isn''t the right way to deal with this, but today is my last day!'
+labels:
+    - 'last day'
+    - coffee
+    - hungry
+    - '12'
+    - twelve
+    - lucky
+    - 'lucky number'
+created_at: '2016-12-03T22:34:16Z'
+updated_at: '2016-12-03T22:34:16Z'
+issue:
+    title: '12 is my lucky number'
+    url: 'https://github.com/codequote/submit/issues/35'
+    number: 35
+author:
+    username: florianpreusner
+    avatar: 'https://avatars.githubusercontent.com/u/728558?v=3'
+    profile_url: 'https://github.com/florianpreusner'
+language: php
+code: |
+    
+    /*
+     * This isn't the right way to deal with this, but today is my last day, Ron
+     * just spilled coffee on my desk, and I'm hungry, so this will have to do...
+     */
+    
+    return 12; // 12 is my lucky number
+    
